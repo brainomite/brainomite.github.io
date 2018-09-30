@@ -5,10 +5,16 @@ span.skills {
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
 }
 span.skills i {
   padding-top: 30px;
   font-size: 6em;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
 }
 span.skills h3 {
   margin-top: 20px;
@@ -16,6 +22,9 @@ span.skills h3 {
   padding-top: 20px;
   font-size: 18px;
   position: relative;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
 }
 span.skills h3:before {
   content: "";
@@ -30,5 +39,24 @@ span.skills h3:before {
   -moz-transition: margin-top 0.2s;
   transition: margin-top 0.2s;
 }
-
-/* #212529 */
+span.skills:hover{
+  background-color: #18bc9c;
+}
+span.skills:hover i {
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  color: #fff;
+}
+span.skills:hover h3 {
+  -webkit-transform: translateY(-21px);
+  -moz-transform: translateY(-21px);
+  -ms-transform: translateY(-21px);
+  transform: translateY(-21px);
+  color: #fff;
+}
+span.skills:hover h3:before {
+  background-color: #fff;
+  margin-top: 58px;
+}
