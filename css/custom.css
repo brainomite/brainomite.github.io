@@ -5,16 +5,16 @@ span.skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-transition: background 0.2s;
-  -moz-transition: background 0.2s;
-  transition: background 0.2s;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  transition: background 0.4s;
 }
 span.skills i {
   padding-top: 30px;
   font-size: 6em;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -moz-transform 0.2s;
-  transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.4s, color 0.4s;
+  transition: -moz-transform 0.4s, color 0.4s;
+  transition: transform 0.4s, color 0.4s;
 }
 span.skills h3 {
   margin-top: 20px;
@@ -22,9 +22,9 @@ span.skills h3 {
   padding-top: 20px;
   font-size: 18px;
   position: relative;
-  -webkit-transition: -webkit-transform 0.2s;
-  -moz-transition: -moz-transform 0.2s;
-  transition: transform 0.2s;
+  -webkit-transition: -webkit-transform 0.4s, color 0.4s;
+  -moz-transition: -moz-transform 0.4s, color 0.4s;
+  transition: transform 0.4s, color 0.4s;
 }
 span.skills h3:before {
   content: "";
@@ -35,9 +35,9 @@ span.skills h3:before {
   top: 0;
   left: 50%;
   margin: 0 0 0 -30px;
-  -webkit-transition: margin-top 0.2s;
-  -moz-transition: margin-top 0.2s;
-  transition: margin-top 0.2s;
+  -webkit-transition: margin-top 0.4s, color 0.4s;
+  -moz-transition: margin-top 0.4s, color 0.4s;
+  transition: margin-top 0.4s, color 0.4s;
 }
 span.skills:hover{
   background-color: #18bc9c;
