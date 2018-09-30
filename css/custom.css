@@ -1,0 +1,34 @@
+.skills-box {
+  height: 200px;
+}
+span.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span.skills i {
+  padding-top: 30px;
+  font-size: 6em;
+}
+span.skills h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  font-size: 18px;
+  position: relative;
+}
+span.skills h3:before {
+  content: "";
+  position: absolute;
+  background: #212529;
+  width: 60px;
+  height: 2px;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -30px;
+  -webkit-transition: margin-top 0.2s;
+  -moz-transition: margin-top 0.2s;
+  transition: margin-top 0.2s;
+}
+
+/* #212529 */
