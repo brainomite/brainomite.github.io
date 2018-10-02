@@ -60,3 +60,76 @@ span.skills:hover h3:before {
   background-color: #fff;
   margin-top: 58px;
 }
+
+.pulse-button {
+  animation: shadow-pulse 1s infinite;
+}
+
+@-ms-keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
+}
+@-webkit-keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
+}
+@-moz-keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
+}
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
+}
+
+#position-subtitle{
+  display: flex;
+  justify-content: space-between;
+}
+#position-subtitle h2{
+  position: relative;
+  left: 0px;
+}
+.position-title{
+  width: 168px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .position-title{
+    width: 300px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .position-title{
+    width: 300px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
