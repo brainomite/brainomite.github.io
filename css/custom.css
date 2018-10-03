@@ -39,7 +39,7 @@ span.skills h3:before {
   -moz-transition: margin-top 0.4s, color 0.4s;
   transition: margin-top 0.4s, color 0.4s;
 }
-span.skills:hover{
+span.skills:hover {
   background-color: #18bc9c;
 }
 span.skills:hover i {
@@ -65,62 +65,61 @@ span.skills:hover h3:before {
   animation: shadow-pulse 1s infinite;
 }
 
-@-ms-keyframes shadow-pulse
-{
+@-ms-keyframes shadow-pulse {
   0% {
-      box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
   }
   100% {
-      box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
-@-webkit-keyframes shadow-pulse
-{
+@-webkit-keyframes shadow-pulse {
   0% {
-      box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
   }
   100% {
-      box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
-@-moz-keyframes shadow-pulse
-{
+@-moz-keyframes shadow-pulse {
   0% {
-      box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
   }
   100% {
-      box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
-@keyframes shadow-pulse
-{
+@keyframes shadow-pulse {
   0% {
-      box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
+    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
   }
   100% {
-      box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
-#position-subtitle{
+#position-subtitle {
   display: flex;
   justify-content: space-between;
 }
-#position-subtitle h2{
+#position-subtitle h2 {
   display: flex;
   align-items: center;
 }
-.position-title{
+.position-title {
   width: 168px;
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .position-title{
+  .position-title {
     width: 300px;
   }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .position-title{
+  .position-title {
     width: 300px;
   }
+}
+.portfolio-row {
+  justify-content: space-around;
 }
