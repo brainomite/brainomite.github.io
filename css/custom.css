@@ -123,3 +123,13 @@ span.skills:hover h3:before {
 .portfolio-row {
   justify-content: space-around;
 }
+
+.portfolio-modal-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolio-modal-buttons a {
+  margin: 8px;
+  width: 160px;
+}
