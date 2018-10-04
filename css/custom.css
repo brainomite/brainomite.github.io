@@ -97,13 +97,21 @@ span.skills:hover h3:before {
     box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
   }
 }
+.position-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 #position-subtitle {
   display: flex;
   justify-content: space-between;
+  width: 90%;
 }
-#position-subtitle h2 {
-  display: flex;
-  align-items: center;
+.position-title-left {
+  text-align: right;
+}
+.position-title-right {
+  text-align: left;
 }
 .position-title {
   width: 168px;
@@ -113,11 +121,8 @@ span.skills:hover h3:before {
   .position-title {
     width: 300px;
   }
-}
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .position-title {
-    width: 300px;
+  #position-subtitle {
+    width: 700px;
   }
 }
 .portfolio-row {
