@@ -60,43 +60,6 @@ span.skills:hover h3:before {
   background-color: #fff;
   margin-top: 58px;
 }
-
-.pulse-button {
-  animation: shadow-pulse 1s infinite;
-}
-
-@-ms-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-  }
-}
-@-webkit-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-  }
-}
-@-moz-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-  }
-}
-@keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(248, 249, 250, 1);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-  }
-}
 .position-div {
   display: flex;
   width: 100%;
@@ -112,7 +75,7 @@ span.skills:hover h3:before {
 }
 .position-title-left {
   /* overriding bootstrap's !important */
-  margin-bottom: 10px!important;
+  margin-bottom: 10px !important;
 }
 .position-title-right {
   margin-top: 10px;
@@ -156,4 +119,46 @@ span.skills:hover h3:before {
 .portfolio-modal-buttons a {
   margin: 8px;
   width: 160px;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bw-button {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #212529;
+  width: 345px;
+  font-size: 18px;
+}
+
+.bw-button:hover {
+  background-color: #00b99c;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+a.bw-button + a.bw-button {
+  margin-top: 35px;
+}
+
+@media (min-width: 990px) {
+  a.bw-button + a.bw-button {
+    margin-top: 0;
+  }
+  .resume-buttons {
+    flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+#resume-button {
+  position: relative;
+  top: 0px;
 }
