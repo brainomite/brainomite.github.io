@@ -154,8 +154,8 @@ a.bw-button + a.bw-button {
   }
   .resume-buttons {
     flex-direction: row;
-  justify-content: space-around;
-}
+    justify-content: space-around;
+  }
 }
 
 #resume-button {
@@ -164,6 +164,10 @@ a.bw-button + a.bw-button {
 }
 .portfolio-thumbnail {
   max-height: 234px;
+}
+
+#blend-thumbnail {
+  margin: 0 8vw;
 }
 
 .portfolio-modal img {
