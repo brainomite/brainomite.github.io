@@ -162,3 +162,10 @@ a.bw-button + a.bw-button {
   position: relative;
   top: 0px;
 }
+.portfolio-thumbnail {
+  max-height: 234px;
+}
+
+.portfolio-modal img {
+  max-height: 66vh;
+}
